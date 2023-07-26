@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Интернет-магазин</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <div class="container">
+                <div class="header-block">
+                    <div class="header_center">
+                        <header>
+                            <div class="logo">Интернет-магазин</div>
+                            <div class="cart">
+                                <filter-el></filter-el>
+                                <cart ref="cart"></cart>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+                <div class="main-block">
+                    <div class="main_center">
+                        <main>
+                            <products ref="products"></products>
+                            <error ref="error"></error>
+                        </main>
+                    </div>
+                </div>
+                <div class="footer-block">
+                    <div class="footer_senter">
+                        <div class="block_one">
+                            <div class="title">О нас:</div>
+                            <div class="footer-content">
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Debitis nulla veniam
+                                    impedit nostrum similique magnam architecto?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block_two">
+                            <div class="title">Контакты:</div>
+                            <div class="footer-content">
+                                <p>Тел: 8-000-00-00</p>
+                                <p>E-mail:</p>
+                            </div>
+                        </div>
+                        <div class="block_three">
+                            <div class="title">Наши партнеры:</div>
+                            <div class="footer-content">
+                                <p>- Lorem, ipsum dolor.</p>
+                                <p>- Lorem ipsum dolor sit amet.</p>
+                                <p>- Lorem ipsum dolor sit.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="js/CartComp.js"></script>
+        <script src="js/ProducComp.js"></script>
+        <script src="js/FilterComp.js"></script>
+        <script src="js/ErrorComp.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
